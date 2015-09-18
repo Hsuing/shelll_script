@@ -5,7 +5,7 @@
 # 
 #         USAGE: ./clean_incre2.sh 
 # 
-#   DESCRIPTION: this is hot backup mysql
+#   DESCRIPTION: this is clean 
 # 
 #       OPTIONS: ---
 #  REQUIREMENTS: ---
@@ -24,6 +24,7 @@ dt=`date +%Y-%m-%d_%H-%M-%S -d '3 day ago'`
 
 for subdir in `ls -tl ${RemoveDir} | awk '{print $9}'`
 do
+    #判断是否为
     if [ "`ls -A $RemoveDir`" = "" ]
     then 
         echo "$RemoveDir is empty"
