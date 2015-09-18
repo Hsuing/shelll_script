@@ -19,7 +19,7 @@
 #===============================================================================
 DB_HOSTNAME="localhost"
 DB_USERNAME="root"
-DB_PASSWORD="e39bd7adcmysql"
+DB_PASSWORD="passwd"
 
 MAXIMUM_BACKUP_FILES=10              #最大备份文件数
 BACKUP_FOLDERNAME="/data/local_db_bak"  #数据库备份文件的主目录
