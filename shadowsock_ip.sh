@@ -28,7 +28,7 @@ rm -rf $TMP_FILE
 
 for i in `cat $SERVER_PASSWD`
 do
-    if [ `cat $LOCAL_PASSWD` != $i  ]
+    if [ `cat $LOCAL_PASSWD` != $i  ] || [ `cat $LOCAL_PASSWD` = "" ] 
     then    
         sed -i "s/$LOCAL/$i/g" $SHADOWSOCK_CONFIG
         set -x
