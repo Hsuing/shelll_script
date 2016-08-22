@@ -21,7 +21,7 @@ BACK_PATH=/data/back_data/back_sql
 
 #mysql env
 USER=root
-PASSWORD=Ua3Vz3St0Su2go
+PASSWORD=123456
 SOCKET=/data/mysql/3306/mysql.sock
 
 MYSQL_CMD_PATH=/data/application/mysql/mysql-5.6.30/bin/mysql
